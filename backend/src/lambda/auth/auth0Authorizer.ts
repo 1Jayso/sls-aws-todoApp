@@ -7,7 +7,7 @@ import { Jwt } from '../../auth/Jwt'
 import { JwtPayload } from '../../auth/JwtPayload'
 import { createLogger } from '../../utils/logger'
 
-const jwksUrl = 'https://dev-3ag6nabvb85ne8fo.us.auth0.com/.well-known/jwks.json'
+const jwksUrl = 'https://dev-sqndgsc1lm30u6kn.us.auth0.com/.well-known/jwks.json'
 
 const logger = createLogger('authentication')
 
