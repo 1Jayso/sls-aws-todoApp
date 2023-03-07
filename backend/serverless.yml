@@ -26,8 +26,7 @@ provider:
   environment:
     TODOS_TABLE: todos-db-${self:provider.stage}
     TODOS_CREATED_AT_INDEX: todos-created-at-index-${self:provider.stage}
-    TODOS_UPLOAD_S3_BUCKET: ${self:provider.stage}-todos-upload-s3-bucket
-    PROJECT_NAME: serverless-todo-app
+    TODOS_UPLOAD_S3_BUCKET: ${self:provider.stage}-todos-upload-s3-bucket-p4
     
 
   logs:
